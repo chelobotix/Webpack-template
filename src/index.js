@@ -1,2 +1,9 @@
 import './assets/style/style.css'
-console.log('hey')
+import './assets/images/gaia.png'
+
+
+const fun = () => {
+  console.log('hey')
+}
+
+fun();
