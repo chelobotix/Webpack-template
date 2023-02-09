@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "MyFont";
+  src: url("./assets/fonts/CascadiaCode.ttf") format("truetype");
+}
+
+body {
+  background-image: url("./assets/images/bg.jpg");
+}
+
+h1 {
+  font-family: "MyFont", sans-serif;
+  color: orangered;
+}

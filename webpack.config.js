@@ -4,10 +4,14 @@ const path = require('path');
 module.exports = {
   mode: 'development',
   devtool: 'inline-source-map',
+  devServer: {
+    static: './dist',
+  },
   entry: './src/index.js',
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
+    clean: true,
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -17,21 +21,16 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.css$/i,
+        test: /\.css/,
         use: ['style-loader', 'css-loader'],
       },
       {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        use: ["babel-loader"]
+        test: /\.(jpg|png|svg|gif)$/,
+        type: 'asset/resource',
       },
       {
-        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        test: /\.(woff|woff2|eot|ttf|otf)$/i,
         type: 'asset/resource',
-        generator: {
-          filename: '[name][ext][query]',
-          outputPath: 'assets/images/',
-        },
       },
     ],
   },
