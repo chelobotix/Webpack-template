@@ -1,7 +1,7 @@
 import './style.css'
-import './assets/images/1.jpg'
+import './assets/images/gaia.png'
 
 const fun = () => {
-  console.log('hey')
+  document.querySelector('#gaia').src = "./assets/images/gaia.png"
 }
 fun();
