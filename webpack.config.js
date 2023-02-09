@@ -1,4 +1,4 @@
-const HtmlWebpackPlugin = require("html-webpack-plugin");
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 
 module.exports = {
@@ -15,8 +15,8 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, 'src', 'index.html')
-    })
+      template: path.resolve(__dirname, 'src', 'index.html'),
+    }),
   ],
   module: {
     rules: [
@@ -25,12 +25,22 @@ module.exports = {
         use: ['style-loader', 'css-loader'],
       },
       {
-        test: /\.(jpg|png|svg|gif)$/,
+        test: /\.html$/i,
+        use: 'html-loader',
+      },
+      {
+        test: /\.(png|jpg)$/i,
         type: 'asset/resource',
+        generator: {
+          filename: 'images/[name]-[hash][ext]',
+        },
       },
       {
         test: /\.(woff|woff2|eot|ttf|otf)$/i,
         type: 'asset/resource',
+        generator: {
+          filename: 'fonts/[name]-[hash][ext]',
+        },
       },
     ],
   },
