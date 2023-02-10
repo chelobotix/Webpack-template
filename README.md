@@ -2,15 +2,14 @@
 
 <div align="center">
 
-  <img src="src/assets/images/podium.png" alt="logo" width="400"  height="auto" />
+  <img src="src/assets/images/webpacklogo.png" alt="logo" width="400"  height="auto" />
   <br/>
   <img src="src/assets/images/chelobotix_logo.png" alt="logo" width="300"  height="auto" />
   <br/>
   <img src="src/assets/images/2.gif" alt="logo" />
   <br/>
 
-  <h3><b>Leaderboard</b></h3>
-  <h3><b>Leaderboard Project Module 2</b></h3>
+  <h3><b>Webpack Template</b></h3>
 
 </div>
 
@@ -32,7 +31,7 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 Leaderboard - Micorverse Project Module 2<a name="about-project"></a>
+# 📖 WebPack Template<a name="about-project"></a>
 
 > Leaderboard App developed with html, css, js and webpack
 
@@ -54,9 +53,10 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **LeaderBoard Table**
-- **Add Score Form**
-- **Send and receive data from an API**
+- **Html Loader**
+- **Css Loader**
+- **Html <img> Loader**
+- **Font Loader**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -67,7 +67,7 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and use as a template for your own portafolio site, follow these steps.
+To get a local copy up and use as a template for your own site, follow these steps.
 
 ### Clone
 
@@ -111,7 +111,7 @@ npm start
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Css Style**
+- [ ] **More config**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -136,7 +136,7 @@ My mother. Let's play to the end together ❤️ with 🧠
 
 ## ❓ FAQ <a name="faq"></a>
 
-- **Is there any restriction to adapting the page to other porpouse??**
+- **Is there any restriction to adapting the template to other porpouse??**
 
   - No problem.
 
