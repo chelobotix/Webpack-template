@@ -62,7 +62,7 @@
 
 ## 🧑🏻‍💻 Live Demo <a name="live-demo"></a>
 
-<a href="https://chelobotix.github.io/Leaderboard-Chelobotix/dist/">Visit the Live Demo</a>
+<a href="https://chelobotix.github.io/Webpack-template//dist/">Visit the Live Demo</a>
 <br/>
 
 ## 💻 Getting Started <a name="getting-started"></a>
